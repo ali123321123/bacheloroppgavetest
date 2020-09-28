@@ -1,0 +1,46 @@
+body {
+    background-image: linear-gradient(to right top, #eaf2ff, #e2f2ff, #daf3ff, #d0f4ff, #c7f5ff);
+    height: 100vh;
+}
+h1 {
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+
+button {
+    width: 100%;
+}
+
+.main {
+    width: 80%;
+    height: auto;
+    background-color: white;
+    margin: 30px auto;
+    padding: 40px;
+    border-radius: 30px;
+}
+
+.red {
+    color: red;
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+
+
+    #register {
+        display: none;
+    }
+
+    .btn-danger {
+        margin-top: 15px;
+    }
+}
+
+

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BacheloroppgaveTest</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>Bookroa</title>
+</head>
+<body>
+
+<div class="main">
+    <h1>Registreing Employees</h1>
+    <form>
+
+        <div class="formcontainer">
+            <div class="form-group input">
+                <label for="firstname">Firstname</label>
+                <input type="text" class="form-control" id="fornavn"/>
+                <span class="red" id="fornavnerror"></span>
+            </div>
+            <div class="form-group input">
+                <label for="lastname">Lastname</label>
+                <input type="text" id="etternavn" class="form-control"/>
+                <span class="red" id="etternavnerror"></span>
+            </div>
+        </div>
+        <div class="formcontainer">
+            <div class="form-group input">
+                <label for="epost">Epost</label>
+                <input type="text" id="epost" class="form-control"/>
+                <span class="red" id="eposterror"></span>
+            </div>
+            <div class="form-group input">
+                <label for="Password">Password</label>
+                <input type="password" id="password" class="form-control"/>
+                <span class="red" id="telefonnummererror"></span>
+            </div>
+
+        </div>
+        <button onclick="regEmp()" type="button" class="btn btn-primary">Register</button>
+    </form>
+
+
+</div>
+</body>
+</html>

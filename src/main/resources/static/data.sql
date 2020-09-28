@@ -1,0 +1,1 @@
+INSERT INTO Employee ( Fornavn, Etternavn, Password, Epost) VALUES ( 'Ali', 'Zedan', '4868483', 'a@a.no');
